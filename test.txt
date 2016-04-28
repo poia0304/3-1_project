@@ -1,0 +1,16 @@
+/user/boardList.action?boardId=10418&page=1&categoryId=1728&categoryDepth=0003
+boardList.action?command=view&page=1&boardId=10418&boardSeq=464245
+boardList.action?command=view&page=1&boardId=10418&boardSeq=462623
+boardList.action?command=view&page=1&boardId=10418&boardSeq=462478
+boardList.action?command=view&page=1&boardId=10418&boardSeq=461382
+boardList.action?command=view&page=1&boardId=10418&boardSeq=461223
+boardList.action?command=view&page=1&boardId=10418&boardSeq=459702
+boardList.action?command=view&page=1&boardId=10418&boardSeq=455333
+boardList.action?command=view&page=1&boardId=10418&boardSeq=442557
+boardList.action?command=view&page=1&boardId=10418&boardSeq=435724
+boardList.action?command=view&page=1&boardId=10418&boardSeq=429987
+boardList.action?command=view&page=1&boardId=10418&boardSeq=428549
+boardList.action?command=view&page=1&boardId=10418&boardSeq=415052
+boardList.action?command=view&page=1&boardId=10418&boardSeq=414291
+boardList.action?command=view&page=1&boardId=10418&boardSeq=405885
+boardList.action?command=view&page=1&boardId=10418&boardSeq=405870
