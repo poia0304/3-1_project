@@ -15,7 +15,9 @@ class DmozSpider(scrapy.Spider):
     allowed_domains = ["dmoz.org"]
     start_urls = [
         #"http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21679&siteId=cse"
-        "http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21679&siteId=cse&dum=dum&boardId=10418&page=1&search=%EC%B7%A8%EC%97%85&column=title"
+        "http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21679&siteId=cse&dum=dum&boardId=10418&page=1&search=%EC%B7%A8%EC%97%85&column=title",
+        "http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21679&siteId=cse&dum=dum&boardId=10418&page=2&search=%EC%B7%A8%EC%97%85&column=title",
+        "http://uwcms.pusan.ac.kr/user/indexSub.action?codyMenuSeq=21679&siteId=cse&dum=dum&boardId=10418&page=3&search=%EC%B7%A8%EC%97%85&column=title"
     ]
 
     def parse(self, response):
@@ -34,23 +36,35 @@ class DmozSpider(scrapy.Spider):
             #//*[@id="board-container"]/div[2]/form[1]/table/tbody/tr[1]/td[2]/strong/a
             #//*[@id="board-container"]/div[2]/form[1]/table/tbody/tr[2]/td[2]/strong/a
             #print sel.xpath('tr[2]/td[2]/strong/a/@href').extract()
-            while(i<5):
+            while(i<22):
                 path='tr['+ str(i+1)+ ']/td[2]/strong/a/@href'
-                test=sel.xpath(path).extract()
+                test=str(sel.xpath('tr['+ str(i+1)+ ']/td[2]/strong/a/@href').extract())
+                if(len(test)<3):
+                    test=str(sel.xpath('tr['+ str(i+1)+ ']/td[2]/a/@href').extract())
+
+                j=0
+                while(test[j]!="\'"):
+                    j+=1
+                j+=1
+                test=test[j:]
+                while(test[j]!="\'"):
+                    j+=1
+                test=test[0:j]
+
                 path='tr['+ str(i+1)+ ']/td[4]'
-                test2=sel.xpath(path).extract()
-                if(len(str(test))>3):
+                test2_txt=str(sel.xpath(path).extract())
+
+                j=0
+                test2=''
+                while(j<len(test2_txt) ):
+                    if( (test2_txt[j]>='0'and test2_txt[j]<='9') or (test2_txt[j]=='-') ):
+                        test2+= test2_txt[j]
+                    j+=1
+
+                if(len(test)>3):
                     print test , test2
                 i+=1
 
-            while(i<22):
-                path='tr['+ str(i+1)+ ']/td[2]/a/@href'
-                test=sel.xpath(path).extract()
-                path='tr['+ str(i+1)+ ']/td[4]'
-                test2=sel.xpath(path).extract()
-                if(len(str(test))>3):
-                    print test, test2
-                i+=1
 
             test=sel.xpath('//tr/td[2]/strong/a/@href').extract()
             #print test
@@ -75,7 +89,7 @@ class DmozSpider(scrapy.Spider):
             for tttt in ttt :
                 i=0
                 printlist=''
-                while(i<=len(tttt)-1 ):
+                while(i<len(tttt) ):
                     if( (tttt[i]>='0'and tttt[i]<='9') or (tttt[i]=='-') ):
                         printlist+= tttt[i]
                     i+=1

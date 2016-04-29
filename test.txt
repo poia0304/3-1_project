@@ -1,16 +1,66 @@
-/user/boardList.action?boardId=10418&page=1&categoryId=1728&categoryDepth=0003
-boardList.action?command=view&page=1&boardId=10418&boardSeq=464245
-boardList.action?command=view&page=1&boardId=10418&boardSeq=462623
-boardList.action?command=view&page=1&boardId=10418&boardSeq=462478
-boardList.action?command=view&page=1&boardId=10418&boardSeq=461382
-boardList.action?command=view&page=1&boardId=10418&boardSeq=461223
-boardList.action?command=view&page=1&boardId=10418&boardSeq=459702
-boardList.action?command=view&page=1&boardId=10418&boardSeq=455333
-boardList.action?command=view&page=1&boardId=10418&boardSeq=442557
-boardList.action?command=view&page=1&boardId=10418&boardSeq=435724
-boardList.action?command=view&page=1&boardId=10418&boardSeq=429987
-boardList.action?command=view&page=1&boardId=10418&boardSeq=428549
-boardList.action?command=view&page=1&boardId=10418&boardSeq=415052
-boardList.action?command=view&page=1&boardId=10418&boardSeq=414291
-boardList.action?command=view&page=1&boardId=10418&boardSeq=405885
-boardList.action?command=view&page=1&boardId=10418&boardSeq=405870
+boardList.action?command=view&page=1&boardId=10418&boardSeq=463887 2016-04-12
+boardList.action?command=view&page=1&boardId=10418&boardSeq=460893 2016-03-15
+boardList.action?command=view&page=1&boardId=10418&boardSeq=418031 2015-04-07
+boardList.action?command=view&page=1&boardId=10418&boardSeq=405968 2014-05-16
+boardList.action?command=view&page=1&boardId=10418&boardSeq=405276 2012-03-02
+boardList.action?command=view&page=1&boardId=10418&boardSeq=404900 2010-11-30
+boardList.action?command=view&page=1&boardId=10418&boardSeq=403694 2007-03-08
+boardList.action?command=view&page=1&boardId=10418&boardSeq=464245 2016-04-18
+boardList.action?command=view&page=1&boardId=10418&boardSeq=462623 2016-03-30
+boardList.action?command=view&page=1&boardId=10418&boardSeq=462478 2016-03-29
+boardList.action?command=view&page=1&boardId=10418&boardSeq=461382 2016-03-21
+boardList.action?command=view&page=1&boardId=10418&boardSeq=461223 2016-03-18
+boardList.action?command=view&page=1&boardId=10418&boardSeq=459702 2016-03-04
+boardList.action?command=view&page=1&boardId=10418&boardSeq=455333 2016-02-12
+boardList.action?command=view&page=1&boardId=10418&boardSeq=442557 2015-09-22
+boardList.action?command=view&page=1&boardId=10418&boardSeq=435724 2015-07-29
+boardList.action?command=view&page=1&boardId=10418&boardSeq=429987 2015-05-28
+boardList.action?command=view&page=1&boardId=10418&boardSeq=428549 2015-05-19
+boardList.action?command=view&page=1&boardId=10418&boardSeq=415052 2015-03-11
+boardList.action?command=view&page=1&boardId=10418&boardSeq=414291 2015-03-05
+boardList.action?command=view&page=1&boardId=10418&boardSeq=405885 2014-02-17
+boardList.action?command=view&page=1&boardId=10418&boardSeq=405870 2014-01-28
+boardList.action?command=view&page=2&boardId=10418&boardSeq=463887 2016-04-12
+boardList.action?command=view&page=2&boardId=10418&boardSeq=460893 2016-03-15
+boardList.action?command=view&page=2&boardId=10418&boardSeq=418031 2015-04-07
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405968 2014-05-16
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405276 2012-03-02
+boardList.action?command=view&page=2&boardId=10418&boardSeq=404900 2010-11-30
+boardList.action?command=view&page=2&boardId=10418&boardSeq=403694 2007-03-08
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405852 2013-12-27
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405741 2013-08-06
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405726 2013-07-12
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405694 2013-06-12
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405645 2013-04-10
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405538 2012-11-27
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405505 2012-10-16
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405481 2012-09-10
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405422 2012-07-04
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405330 2012-04-25
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405226 2011-12-22
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405118 2011-09-06
+boardList.action?command=view&page=2&boardId=10418&boardSeq=405108 2011-08-25
+boardList.action?command=view&page=2&boardId=10418&boardSeq=404854 2010-09-16
+boardList.action?command=view&page=2&boardId=10418&boardSeq=404721 2010-03-26
+boardList.action?command=view&page=3&boardId=10418&boardSeq=463887 2016-04-12
+boardList.action?command=view&page=3&boardId=10418&boardSeq=460893 2016-03-15
+boardList.action?command=view&page=3&boardId=10418&boardSeq=418031 2015-04-07
+boardList.action?command=view&page=3&boardId=10418&boardSeq=405968 2014-05-16
+boardList.action?command=view&page=3&boardId=10418&boardSeq=405276 2012-03-02
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404900 2010-11-30
+boardList.action?command=view&page=3&boardId=10418&boardSeq=403694 2007-03-08
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404614 2009-11-09
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404576 2009-09-30
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404566 2009-09-21
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404527 2009-08-21
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404466 2009-06-18
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404407 2009-05-04
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404384 2009-04-02
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404364 2009-03-11
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404217 2008-10-16
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404215 2008-10-16
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404191 2008-09-19
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404176 2008-09-09
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404146 2008-08-14
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404118 2008-07-21
+boardList.action?command=view&page=3&boardId=10418&boardSeq=404083 2008-06-13
