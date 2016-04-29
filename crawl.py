@@ -30,6 +30,28 @@ class DmozSpider(scrapy.Spider):
             #test = sel.xpath('//td/text()') #배제
             #//*[@id="board-container"]/div[2]/form[1]/table/tbody/tr[8]/td[2]/a
 
+            i=0
+            #//*[@id="board-container"]/div[2]/form[1]/table/tbody/tr[1]/td[2]/strong/a
+            #//*[@id="board-container"]/div[2]/form[1]/table/tbody/tr[2]/td[2]/strong/a
+            #print sel.xpath('tr[2]/td[2]/strong/a/@href').extract()
+            while(i<5):
+                path='tr['+ str(i+1)+ ']/td[2]/strong/a/@href'
+                test=sel.xpath(path).extract()
+                path='tr['+ str(i+1)+ ']/td[4]'
+                test2=sel.xpath(path).extract()
+                if(len(str(test))>3):
+                    print test , test2
+                i+=1
+
+            while(i<22):
+                path='tr['+ str(i+1)+ ']/td[2]/a/@href'
+                test=sel.xpath(path).extract()
+                path='tr['+ str(i+1)+ ']/td[4]'
+                test2=sel.xpath(path).extract()
+                if(len(str(test))>3):
+                    print test, test2
+                i+=1
+
             test=sel.xpath('//tr/td[2]/strong/a/@href').extract()
             #print test
             test=sel.xpath('//tr/td[2]/a/@href').extract()
@@ -45,6 +67,22 @@ class DmozSpider(scrapy.Spider):
                 while(tttt[i]!="\'"):
                     i+=1
                 end=i
-                print tttt[start:end]
+                #print tttt[start:end]
+
+            test = sel.xpath('//tr/td[4]').extract()
+            tt=str(test)
+            ttt = tt.split('u')
+            for tttt in ttt :
+                i=0
+                printlist=''
+                while(i<=len(tttt)-1 ):
+                    if( (tttt[i]>='0'and tttt[i]<='9') or (tttt[i]=='-') ):
+                        printlist+= tttt[i]
+                    i+=1
+                end=i
+                if(len(printlist)>1 ):
+                    if(printlist[0] == '2' and printlist[1]=='0') :
+                        printlist #print printlist
+
 #            f.write(title , link, desc)
 
