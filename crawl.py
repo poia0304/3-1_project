@@ -51,6 +51,25 @@ class DmozSpider(scrapy.Spider):
                     j+=1
                 test=test[0:j]
 
+                if(len(test)<4):
+                    i+=1
+                    continue
+
+                path='tr['+ str(i+1)+ ']/td[2]/strong/a'
+                test_txt=str(sel.xpath(path).extract())
+                if(len(test_txt)<3):
+                    path='tr['+ str(i+1)+ ']/td[2]/a'
+                    test_txt=str(sel.xpath(path).extract())
+                j=0
+                while(test_txt[j]!=">"):
+                    j+=1
+                j+=1
+                test_txt=test_txt[j:]
+                while(test_txt[j]!="<" and j<len(test_txt)-1 ):
+                    j+=1
+                test_txt=test_txt[0:j]
+
+
                 path='tr['+ str(i+1)+ ']/td[4]'
                 test2_txt=str(sel.xpath(path).extract())
 
@@ -61,8 +80,7 @@ class DmozSpider(scrapy.Spider):
                         test2+= test2_txt[j]
                     j+=1
 
-                if(len(test)>3):
-                    print test , test2
+                #print test , test2, test_txt
                 i+=1
 
 
